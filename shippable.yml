@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+build:
+  ci:
+    - java -version
+    - javac -version
+    - echo "$JAVA_HOME"
+    - printenv
